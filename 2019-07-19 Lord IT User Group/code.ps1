@@ -28,19 +28,23 @@ $svrsCRD | ForEach-Object {start-service bits}
 #Pull user info
 Get-aduser Michael_kanakos
 
-
-
-
 #Build your own lookups
 get-employeeinfo Michael_kanakos
 
-
-
+# perform searches
 get-aduser -filter "name -like 'smith*' " -prop * | select name, office, city, *phone* | ft
 
-
+#more complex 
 get-aduser -filter "name -like 'smith*' -and city -eq 'cary' " -prop * | select name, City | sort city
 
+
+#ask for more data
+get-aduser -filter "name -like 'smith*' " -prop * | select name, office, city, *phone* | ft 
+
+#save the data for later use
+$crdusers = get-aduser -filter "name -like 'smith*' " -prop * | select name, office, city, *phone* | ft 
+
 #exporting data
-
-
+$crdusers | export-csv C:\scripts\Output\democsv.csv -NoTypeInformation
+$crdusers | ConvertTo-Html | out-file C:\Scripts\Output\demohtml.htm
+$crdusers | Export-Excel -FreezeTopRow
