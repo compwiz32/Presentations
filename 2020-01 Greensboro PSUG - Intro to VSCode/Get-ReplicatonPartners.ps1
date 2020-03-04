@@ -32,5 +32,9 @@ $thisDC=Get-ADDomainController
                     }
                       $fromPartners  | % {
                         Invoke-Command -ComputerName $_ -ScriptBlock {$cmd }
+
+                          Get-ADGrup domain administrrators
+
+
                     }
 
