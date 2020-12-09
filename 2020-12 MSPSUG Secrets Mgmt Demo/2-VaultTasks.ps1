@@ -31,10 +31,10 @@ $a = Get-Secret TextString
 
 
 #add a PSCredential Object
-Set-Secret -name CredMK -Secret (Get-pscredential)
+Set-Secret -name CredMK -Secret (Get-credential)
 
 #dont make this mistake
-Set-Secret (Get-pscredential)
+Set-Secret (Get-credential)
 
 #create WinRM sessions
 $SessionMKAdmin = new-pssession DC1 -Credential (Get-Secret -Name CredMKadmin -Vault VaultDemo)
