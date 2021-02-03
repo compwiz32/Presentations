@@ -19,7 +19,6 @@ Get-Command -module microsoft.powershell.secretmanagement
 Get-Command -module microsoft.powershell.secretstore
 
 
-
 #Build a vault
 Register-SecretVault -Name VaultDemo -ModuleName Microsoft.PowerShell.SecretStore -DefaultVault -AllowClobber
 
