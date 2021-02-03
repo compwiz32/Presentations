@@ -16,11 +16,9 @@ throw "F8 to run selection!! Not Ctrl+F5 or F5"
 https://keepass.info/download.html
 
 # Create a KeePass database with a master password
-Database Name: database
+Database Name: mktest
 
 # Do this inside the app
-
-New-Item -Path "c:\" -Name "KeePass" -ItemType "directory"
 
 # Secret Mgmt - KeePass
 https://www.powershellgallery.com/packages/SecretManagement.KeePass/0.0.4.4
@@ -29,14 +27,14 @@ https://www.powershellgallery.com/packages/SecretManagement.KeePass/0.0.4.4
 Install-Module SecretManagement.KeePass
 
 # Register Vault
-Register-SecretVault -Name 'testVault' -ModuleName 'SecretManagement.Keepass' -VaultParameters @{
+Register-SecretVault -Name 'mktest' -ModuleName 'SecretManagement.Keepass' -VaultParameters @{
     Path = "c:\keepass\database.kdbx"
+    UseMasterPassword = $true
 }
 
 # create a secret inside the windows app
-Secret Name: KeePassVagrant
-user: vagrant
-pass: vagrant
+
+
 
 #read secret from vault
 Get-Secret -Name "KeePassVagrant" -vault "testvault"

@@ -13,20 +13,6 @@ throw "F8 to run selection!! Not Ctrl+F5 or F5"
 #endregion
 
 
-# Links
-# MS Blog Post
-https://devblogs.microsoft.com/powershell/secretmanagement-preview-6-and-secretstore-preview-4/
-
-# Secret Mgmt Module
-https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretManagement/0.5.5-preview6
-
-# Secret Store
-https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretStore/0.5.4-preview4
-
-# Secret Mgmt - KeePass
-https://www.powershellgallery.com/packages/SecretManagement.KeePass/0.0.4.4
-
-
 
 # passwords in PowerShell the old way!
 $oldcred = Get-credential mklab\mkana
@@ -37,11 +23,18 @@ $oldcred.Password | ConvertFrom-SecureString -AsPlainText
 
 # a better way - secrets mgmt
 
+#find all the modules available
+find-module "microsoft.powershell.secretmanagement" | select name, author, companyname, version
+
+find-module -tag "secretManagement" | select name, author, companyname, version
+
+
 # Install Secret Mgmt Module (the engine)
-Install-Module -Name Microsoft.PowerShell.SecretManagement -AllowPrerelease -Repository PSGallery
+Install-Module -Name Microsoft.PowerShell.SecretManagement -Repository PSGallery
 
 # Install Secret Management Store (the translator & storage)
-Install-Module -Name Microsoft.PowerShell.SecretStore -AllowPrerelease -Repository PSGallery
+Install-Module -Name Microsoft.PowerShell.SecretStore -Repository PSGallery
+Install-Module -Name SecretManagement.KeePass -Repository PSGallery
 
 #PowerShellv5
 Install-Module PowerShellGet -Allow Clobber
