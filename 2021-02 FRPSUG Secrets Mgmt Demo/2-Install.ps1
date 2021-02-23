@@ -24,7 +24,7 @@ Install-Module -Name Microsoft.PowerShell.SecretManagement -Repository PSGallery
 
 # Install Secret Management Store (the translator & storage)
 Install-Module -Name Microsoft.PowerShell.SecretStore -Repository PSGallery
-# Install-Module -Name SecretManagement.KeePass -Repository PSGallery
+
 
 #PowerShellv5
 Install-Module PowerShellGet -Allow Clobber
