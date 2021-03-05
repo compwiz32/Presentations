@@ -27,10 +27,7 @@ Register-SecretVault -Name VaultDemo -ModuleName Microsoft.PowerShell.SecretStor
 #view the vault
 Get-SecretVault
 
-#configure a vault
-Get-SecretStoreConfiguration
-
-#change the default timeout value from 15 min to 30 min
+#configure a vaul#change the default timeout value from 15 min to 30 min
 Set-SecretStoreConfiguration -PasswordTimeout 1800
 
 # default 900 seconds / 15 minutes
