@@ -5,6 +5,12 @@
 - [SecretManagement Module](https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretManagement/)
 - [SecretStore](https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretStore/)
 
+- Find SecretManagement Vaults:
+    ```
+    $SelectParams ='Name', 'Author', 'CompanyName', 'Version'
+    find-module -tag "secretManagement" | Select-Object $SelectParams
+    ```
+
 ### Useful Blog Posts
 
 - [4sysops - SecretManagement for PowerShell](https://4sysops.com/archives/secretsmanagement-module-for-powershell-save-passwords-in-powershell/)
@@ -16,6 +22,6 @@
 - [SecretManagement and SecretStore Release Candidates - (good background info)](https://devblogs.microsoft.com/powershell/secretmanagement-and-secretstore-release-candidates/)
 
 
-### Previous SecretManagement Video Demo:
-- YouTube: search for "mike kanakos SecretManagement"
-- direct link: https://www.youtube.com/watch?v=5Za02Y8jCBw
+### SecretManagement Video Demos:
+- [Mike Kanakos - previously recorded demos](https://www.youtube.com/results?search_query=mike+kanakos+secretmanagement)
+- [John Savill Secret Management Explainer](https://www.youtube.com/watch?v=7b0KGVI4VLY)
