@@ -1,6 +1,6 @@
 # NYPSUG Demo: Useful Links
 
-## PowerShell Gallery Links
+### PowerShell Gallery Links
 
 - [SecretManagement Module](https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretManagement/)
 - [SecretStore](https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretStore/)
