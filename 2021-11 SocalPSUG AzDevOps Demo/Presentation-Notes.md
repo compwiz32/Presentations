@@ -1,10 +1,10 @@
-# SoCal PSUG: Running on-prem automation with Azure DevOps Services
+# SoCal PSUG: Running On-Prem Automation with Azure DevOps Services
 
 ### Agenda
 
 - How to run on-prem workloads from in the Azure cloud.. why?
 - Walk thru services available
-- Highlight why you want to consider ADevOps (Hint: Cost & features)
+- Highlight why you want to consider ADevOps (Hint: Cost, features & flexibility)
 - Show off the interface / How to get started
 - Explain the buttons and knobs
 - Create some automation
@@ -17,10 +17,16 @@
 - Leader RTPSUG
 
 ### Why AzDevOps?
-- AZ DevOps can handle all sizes of automation
-- Lots of choices: Let's simplify the options
+
+- What choices do you have today?
+  - task scheduler (scheduled tasks and scheduled jobs)
+  - 3rd party tools (Jenkins, Ansible, PowerShell Universal, etc.)
+- AZ DevOps not thought of as an on-prem solution
+- Can handle all sizes of automation
+- Lots of choices, but can but simplified to the basics
 - Very affordable automation solution for ANY size business
-- AZ DevOps can handle multiple languages
+- Engine can handle multiple languages
+- GUI or command line based
 
 ### What are AZDevOps Svcs?
 
