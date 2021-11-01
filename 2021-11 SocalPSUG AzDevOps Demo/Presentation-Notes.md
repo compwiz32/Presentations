@@ -1,25 +1,36 @@
 # SoCal PSUG: Getting started with Azure DevOps Services
 
-## Demo Intro
+### Demo Intro
 
-- How to run to get started running scheduled jobs / automation in the cloud
-- geared for sysadmins
-- lots of choices - let's boil it down to what you need to get started
+- How to run on-prem workloads from in the Azure cloud
+- Azure DevOps is an attractive option for running automation
+- Lots of choices: Let's simplify the options
+- Very affordable automation solution for ANY size business
 
-##  Who Am I?
+### Who Am I?
 
 - Microsoft MVP / Leader RTPSUG
-- AD Engineer / PowerShell Tools & Automation
+- Infrastructure Tools Engineer: Invisalign
+  - Azure AD, Azure DevOps, Active Directory, Build PowerShell Tools & Automation
 
-##  What are AZDevOps Svcs
+### What are AZDevOps Svcs?
 
 - Azure DevOps website: https://dev.azure.com/your-AZDevops-Acct
-- a collection of tools to help build and maintain automation
-- automation can run in the cloud or on-premises
-- enterprise grade automation services
-- Free service!!!
+- Collection of tools to help build and maintain automation
+- Automation can run in the cloud or on-premises
+- Enterprise grade automation services
+- SAAS - MS maintains the environment
+- Can be a completely free service!!!
+
+### AZDevops Svcs Breakdown:
+
 - Five major parts:
-![Test](AZDevops-Services.png)
+![AzDevopsSvcs](AZDevops-Services.png)
+
+### AzDevOps vs Task Scheduler?
+-
+
+
 
 ## Azure DevOps Cost
 
