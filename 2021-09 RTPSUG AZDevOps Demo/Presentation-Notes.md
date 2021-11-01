@@ -2,11 +2,13 @@
 
 ## Demo Intro
 
+### Test Heading
+
 - How to run to get started running scheduled jobs / automation in the cloud
 - geared for sysadmins
 - lots of choices - let's boil it down to what you need to get started
 
-##  Who Am I? 
+##  Who Am I?
 
 - Microsoft MVP / Leader RTPSUG
 - AD Engineer / PowerShell Tools & Automation
@@ -17,14 +19,14 @@
 - a collection of tools to help build and maintain automation
 - automation can run in the cloud or on-premises
 - enterprise grade automation services
-- Free service - ok 
+- Free service!!!
 - Five major parts:
-  <img src="C:\Scripts\GitRepos\Presentations\2021-09 RTPSUG AZDevOps Demo\azdevops-services.png"  />
+![Test](AZDevops-Services.png)
 
 ## Azure DevOps Cost
 
 - cost calculator - https://azure.microsoft.com/en-us/pricing/calculator/
-- surprisingly cheap - you can absolutely run AzDevOps for $0 
+- surprisingly cheap - you can absolutely run AzDevOps for $0
 
 ## My Lab Setup
 
@@ -75,7 +77,7 @@
 - default view is history
   - job name - last run - run time
 - jobs
-  - 
+  -
 - library
   - variables / variable groups
   - link to jobs
