@@ -1,17 +1,26 @@
-# SoCal PSUG: Getting started with Azure DevOps Services
+# SoCal PSUG: Running on-prem automation with Azure DevOps Services
 
-### Demo Intro
+### Agenda
 
-- How to run on-prem workloads from in the Azure cloud
-- Azure DevOps is an attractive option for running automation
-- Lots of choices: Let's simplify the options
-- Very affordable automation solution for ANY size business
+- How to run on-prem workloads from in the Azure cloud.. why?
+- Walk thru services available
+- Highlight why you want to consider ADevOps (Hint: Cost & features)
+- Show off the interface / How to get started
+- Explain the buttons and knobs
+- Create some automation
 
 ### Who Am I?
 
-- Microsoft MVP / Leader RTPSUG
+- Microsoft MVP
 - Infrastructure Tools Engineer: Invisalign
   - Azure AD, Azure DevOps, Active Directory, Build PowerShell Tools & Automation
+- Leader RTPSUG
+
+### Why AzDevOps?
+- AZ DevOps can handle all sizes of automation
+- Lots of choices: Let's simplify the options
+- Very affordable automation solution for ANY size business
+- AZ DevOps can handle multiple languages
 
 ### What are AZDevOps Svcs?
 
