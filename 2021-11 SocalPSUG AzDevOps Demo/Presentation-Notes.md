@@ -13,13 +13,14 @@
 
 - Microsoft MVP
 - Infrastructure Tools Engineer: Invisalign
-  - Azure AD, Azure DevOps, Active Directory, Build PowerShell Tools & Automation
+  - Azure AD, Azure DevOps, Active Directory, SSO, Build PowerShell Tools & Automation
 - Leader RTPSUG
 
 ### Why AzDevOps?
 
 - What choices do you have today?
-  - task scheduler (scheduled tasks and scheduled jobs)
+  - Windows: task scheduler (scheduled tasks and scheduled jobs)
+  - Linux: Cron Jobs
   - 3rd party tools (Jenkins, Ansible, PowerShell Universal, etc.)
 - AZ DevOps not thought of as an on-prem solution
 - Can handle all sizes of automation
@@ -30,12 +31,12 @@
 
 ### What are AZDevOps Svcs?
 
-- Azure DevOps website: https://dev.azure.com/your-AZDevops-Acct
 - Collection of tools to help build and maintain automation
 - Automation can run in the cloud or on-premises
 - Enterprise grade automation services
 - SAAS - MS maintains the environment
 - Can be a completely free service!!!
+- Azure DevOps website: https://dev.azure.com/your-AZDevops-Acct
 
 ### AZDevops Svcs Breakdown:
 
