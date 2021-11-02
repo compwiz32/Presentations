@@ -1,10 +1,10 @@
-# SoCal PSUG: Running On-Prem Automation with Azure DevOps Services
+# SoCal PSUG: Running On-prem Automation with Azure DevOps Services
 
 ### Agenda
 
-- AzDevOps: What is it and what does it do?
-- Highlight why you want to consider AzDevOps (Hint: cost, features & flexibility)
-- How to run on-prem workloads from in the Azure cloud.. why?
+- AZDevOps: What is it and what does it do?
+- Highlight why you want to consider AZDevOps (Hint: cost, features & flexibility)
+- How to run "on-prem" workloads from in the Azure cloud.. why?
 - Show off the interface / How to get started
 - Explain the buttons and knobs
 - Create and run some automation
@@ -39,19 +39,19 @@
 - GUI or command line based
 
 ### AZDevOps Diagram
-![](AZDevops-Conceptual.png)
 
-### AZDevops Svcs
+![image](AZDevops-Conceptual.png)
 
-Azure DevOps website: https://dev.azure.com/your-AZDevops-Acct
+### AZDevOps Svcs
 
-![AzDevopsSvcs](AZDevops-Services.png)
+Azure DevOps website - https://dev.azure.com/your-AZDevops-Acct
+
+![AZDevOps Svcs](AZDevops-Services.png)
 
 ## Azure DevOps Cost
 
 - cost calculator - https://azure.microsoft.com/en-us/pricing/calculator/
-- surprisingly cheap - you can absolutely run AzDevOps for $0
-
+- surprisingly cheap - you can absolutely run AZDevOps for $0
 
 ## My Lab Setup
 
@@ -111,6 +111,7 @@ Azure DevOps website: https://dev.azure.com/your-AZDevops-Acct
   - link to jobs
 
 ### Let's build a Job
+
 - classic editor
 - choose repo
 - start with an empty job
@@ -124,4 +125,3 @@ Azure DevOps website: https://dev.azure.com/your-AZDevops-Acct
   - point to file in repo
   - add arguments
   - do you need PWSH?
-  -
