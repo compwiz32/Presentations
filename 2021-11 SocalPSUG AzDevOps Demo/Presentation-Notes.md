@@ -2,65 +2,66 @@
 
 ### Agenda
 
+- AzDevOps: What is it and what does it do?
+- Highlight why you want to consider AzDevOps (Hint: cost, features & flexibility)
 - How to run on-prem workloads from in the Azure cloud.. why?
-- Walk thru services available
-- Highlight why you want to consider ADevOps (Hint: Cost, features & flexibility)
 - Show off the interface / How to get started
 - Explain the buttons and knobs
-- Create some automation
+- Create and run some automation
 
 ### Who Am I?
 
 - Microsoft MVP
-- Infrastructure Tools Engineer: Invisalign
-  - Azure AD, Azure DevOps, Active Directory, SSO, Build PowerShell Tools & Automation
+- Invisalign: Sr Infrastructure Tools Engineer
+  - Azure AD
+  - Active Directory
+  - SSO
+  - PowerShell tools & scripts
+  - Azure DevOps
 - Leader RTPSUG
+- Twitter: @MikeKanakos
+- Web: www.networkadm.in
+- Email mkanakos@gmail.com
 
-### Why AzDevOps?
+### Why AZDevOps?
 
 - What choices do you have today?
   - Windows: task scheduler (scheduled tasks and scheduled jobs)
-  - Linux: Cron Jobs
-  - 3rd party tools (Jenkins, Ansible, PowerShell Universal, etc.)
-- AZ DevOps not thought of as an on-prem solution
-- Can handle all sizes of automation
-- Lots of choices, but can but simplified to the basics
-- Very affordable automation solution for ANY size business
+  - Linux: cron jobs
+  - 3rd party tools (Jenkins, Ansible, PowerShell Universal, Octopus Deploy, etc.)
+- AZDevOps can handle all sizes of automation
+- Very affordable automation solution for ANY size business (Free! Yes, free!)
+- AZ DevOps not thought of as an on-prem solution, but it  manage cloud or on-premises resources
+- SAAS: MS maintains the environment (automation in the cloud)
+- Email and AD Integration built in if you're already in the cloud
 - Engine can handle multiple languages
+- Lots of choices, but can but simplified to the basics
 - GUI or command line based
 
-### What are AZDevOps Svcs?
+### AZDevOps Diagram
+![](AZDevops-Conceptual.png)
 
-- Collection of tools to help build and maintain automation
-- Automation can run in the cloud or on-premises
-- Enterprise grade automation services
-- SAAS - MS maintains the environment
-- Can be a completely free service!!!
-- Azure DevOps website: https://dev.azure.com/your-AZDevops-Acct
+### AZDevops Svcs
 
-### AZDevops Svcs Breakdown:
+Azure DevOps website: https://dev.azure.com/your-AZDevops-Acct
 
-- Five major parts:
 ![AzDevopsSvcs](AZDevops-Services.png)
-
-### AzDevOps vs Task Scheduler?
--
-
-
 
 ## Azure DevOps Cost
 
 - cost calculator - https://azure.microsoft.com/en-us/pricing/calculator/
 - surprisingly cheap - you can absolutely run AzDevOps for $0
 
+
 ## My Lab Setup
 
 - on-prem domain: Active Directory
-- cloud: AzureAD
-- automation engine: AZ DevOps
+- - automation engine: AZ DevOps
   - git repo: my code
   - pipelines: engine
   - Project: where all my settings live
+- ~~cloud: AzureAD~~
+
 
 ## First Steps with Azure DevOps
 
@@ -71,6 +72,7 @@
 - setup a repo
 - commit code
 - setup a job
+- run job
 
 ## AZ DevOps Interface
 
@@ -88,9 +90,7 @@
 - create PAT
 - unzip & install agent
 - follow cmd line prompts
-
-<img src="C:\Scripts\GitRepos\Presentations\2021-09 RTPSUG AZDevOps Demo\AZBuild-Config-Process.png" style="zoom:150%;" />
-
+![](AZBuild-Config-Process.png)
 
 
 ### Repo setup
@@ -106,4 +106,3 @@
 - library
   - variables / variable groups
   - link to jobs
-
