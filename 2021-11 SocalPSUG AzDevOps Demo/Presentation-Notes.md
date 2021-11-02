@@ -72,6 +72,7 @@ Azure DevOps website: https://dev.azure.com/your-AZDevops-Acct
 - setup a repo
 - commit code
 - setup a job
+- configure an agent pool
 - run job
 
 ## AZ DevOps Interface
@@ -87,11 +88,13 @@ Azure DevOps website: https://dev.azure.com/your-AZDevops-Acct
 ### AZ Build Agent Process
 
 - download agent
-- create PAT
+  - [Agent Download](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=browser#install)
+  - [Windows Agent](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-windows?view=azure-devops)
+- create Personal Access Token
 - unzip & install agent
 - follow cmd line prompts
-![](AZBuild-Config-Process.png)
 
+![](AZBuild-Config-Process.png)
 
 ### Repo setup
 
