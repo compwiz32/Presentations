@@ -2,9 +2,9 @@
 
 ### Agenda
 
+- Walk thru services available from Azure for "scheduled automation"
+- Highlight why you want to consider ADevOps (Hint: cost, features & flexibility)
 - How to run on-prem workloads from in the Azure cloud.. why?
-- Walk thru services available
-- Highlight why you want to consider ADevOps (Hint: Cost, features & flexibility)
 - Show off the interface / How to get started
 - Explain the buttons and knobs
 - Create some automation
@@ -12,41 +12,47 @@
 ### Who Am I?
 
 - Microsoft MVP
-- Infrastructure Tools Engineer: Invisalign
-  - Azure AD, Azure DevOps, Active Directory, SSO, Build PowerShell Tools & Automation
+- Invisalign: Sr Infrastructure Tools Engineer
+  - Azure AD
+  - Active Directory
+  - SSO
+  - PowerShell tools & scripts
+  - Azure DevOps
 - Leader RTPSUG
+- Twitter: @MikeKanakos
+- Web: www.networkadm.in
+- Email mkanakos@gmail.com
 
 ### Why AzDevOps?
 
 - What choices do you have today?
   - Windows: task scheduler (scheduled tasks and scheduled jobs)
-  - Linux: Cron Jobs
-  - 3rd party tools (Jenkins, Ansible, PowerShell Universal, etc.)
-- AZ DevOps not thought of as an on-prem solution
+  - Linux: cron jobs
+  - 3rd party tools (Jenkins, Ansible, PowerShell Universal, Octopus Deploy, etc.)
 - Can handle all sizes of automation
+- AZ DevOps not thought of as an on-prem solution
 - Lots of choices, but can but simplified to the basics
 - Very affordable automation solution for ANY size business
+- Email and AD Integration built in if you're already in the cloud
+- SAAS: MS maintains the environment
 - Engine can handle multiple languages
 - GUI or command line based
 
 ### What are AZDevOps Svcs?
 
-- Collection of tools to help build and maintain automation
-- Automation can run in the cloud or on-premises
-- Enterprise grade automation services
-- SAAS - MS maintains the environment
+- Collection of enterprise grade automation services
+- Can manage cloud or on-premises resources
 - Can be a completely free service!!!
 - Azure DevOps website: https://dev.azure.com/your-AZDevops-Acct
 
+### AZDevOps Diagram
+![](AZDevops-Conceptual.png)
+
+
+
 ### AZDevops Svcs Breakdown:
 
-- Five major parts:
 ![AzDevopsSvcs](AZDevops-Services.png)
-
-### AzDevOps vs Task Scheduler?
--
-
-
 
 ## Azure DevOps Cost
 
