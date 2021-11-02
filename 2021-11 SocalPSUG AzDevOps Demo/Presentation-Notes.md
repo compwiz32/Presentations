@@ -109,3 +109,19 @@ Azure DevOps website: https://dev.azure.com/your-AZDevops-Acct
 - library
   - variables / variable groups
   - link to jobs
+
+### Let's build a Job
+- classic editor
+- choose repo
+- start with an empty job
+- Give your job a name
+- Select your agent pool
+- configure the agent job
+- give the job a name
+- add a task to job
+  - you can have multiple tasks in a job
+  - add script language
+  - point to file in repo
+  - add arguments
+  - do you need PWSH?
+  -
