@@ -25,7 +25,7 @@ Install-Module Az.KeyVault
 
 #region - make a connection between secret mgmt and azkeyvault
 $SubID = "8524f719-e282-4fbd-ac73-a55a151e5b71"
-$VaultName " fill in name "
+$VaultName = " fill in name "
 Register-SecretVault -Module Az.KeyVault -Name AzKV -VaultParameters @{ AZKVaultName = $vaultName; SubscriptionId = $SubID}
 
 #endregion
